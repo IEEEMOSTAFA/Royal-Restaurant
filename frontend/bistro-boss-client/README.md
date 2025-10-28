@@ -6,3 +6,4 @@ npx flowbite-react@latest init
 
 For Banner use:: npm i react-responsive-carousel
 use Link: https://github.com/leandrowd/react-responsive-carousel
+npm install swiper

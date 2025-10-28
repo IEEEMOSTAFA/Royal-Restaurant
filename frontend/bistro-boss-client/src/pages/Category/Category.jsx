@@ -14,6 +14,7 @@ import slide2 from '../../assets/home/slide2.jpg';
 import slide3 from '../../assets/home/slide3.jpg';
 import slide4 from '../../assets/home/slide4.jpg';
 import slide5 from '../../assets/home/slide5.jpg';
+import SectionTittle from '../../components/SectionTittle/SectionTittle';
 
 export default function Category() {
   const categories = [
@@ -26,6 +27,13 @@ export default function Category() {
 
   return (
     <section className="py-12 px-4">
+
+      <SectionTittle
+        heading={"ORDER ONLINE"}
+        subHeading={"---From 11:00am to 10:00pm---"}
+      >
+
+      </SectionTittle>
       <Swiper
         slidesPerView={1}
         spaceBetween={20}
@@ -69,5 +77,6 @@ export default function Category() {
         ))}
       </Swiper>
     </section>
+
   );
 }
